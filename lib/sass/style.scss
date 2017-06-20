@@ -1,0 +1,58 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.hero{
+    text-align: center;
+}
+
+.weather{
+    margin-top: 30px;
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .weather-featured-cities{
+        margin-bottom: 25px;
+    }
+
+    .results{
+        margin-top: 15px;
+        h4{
+            margin-bottom: 25px;
+        }
+    }
+
+    .resultList{
+        margin-bottom: 10px;
+    }
+
+    .weather-featured-cities{
+        
+    }
+}
+
+footer{
+    padding: 12px;
+    text-align: center;
+    background: #232323;
+    color: #FFF;
+    margin-top: 30px;
+
+    a{
+        color: #999;
+        &:hover{
+            color: #FFF;
+        }
+    }
+}
